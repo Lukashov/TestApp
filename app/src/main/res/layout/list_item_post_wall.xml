@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:id="@+id/rl_messageItem_LIPW">
+
+        <RelativeLayout
+            android:id="@+id/rlHeader_LIPW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivAvatar_LIPW"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="8dp"
+                tools:src="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/tv_last_time_response_LIPW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="21.12.2012"
+                android:textSize="10sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_recent_name_LIPW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Johny Cash"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_headline_LIPW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:layout_margin="16dp"
+            tools:src="@android:drawable/sym_def_app_icon"
+            android:layout_below="@id/rlHeader_LIPW"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_recent_messages_LIPW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_headline_LIPW"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_body_LIRM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Lorem ipsum dolor sit amet, nam cu paulo utamur voluptua, mei id phaedrum reprimique. Cum postulant consequuntur in. Id magna recteque sea, usu te aperiri scriptorem"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

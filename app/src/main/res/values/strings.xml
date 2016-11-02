@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestAppSkywell</string>
+    <integer name="com_vk_sdk_AppId">5698441</integer>
+</resources>
